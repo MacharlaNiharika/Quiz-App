@@ -1,12 +1,14 @@
 # Quiz-App
 
 Online Test Registration and Examination Portal
-Project Description
+Project Description:
 This full-stack web application enables users to register, log in, take online exams, and view their results.
 
 Features
+
 Registration Module:
-Collects user details: Full Name, Email Address, Phone Number, College Name, College ID Number, Profile Picture (50KB - 250KB), College ID Card (100KB - 500KB).
+Collects user details: 
+Full Name, Email Address, Phone Number, College Name, College ID Number, Profile Picture (50KB - 250KB), College ID Card (100KB - 500KB).
 Generates a random password upon successful registration.
 Sends the password to the user's registered email address.
 Redirects the user to the Login Page.
@@ -36,7 +38,8 @@ Performance Summary: Score, Percentage, Rank.
 Detailed Solutions Section: All questions, Correct answer, User's selected option.
 Email Notification:
 Sends an automatic email to the user after test submission.
-Tech Stack
+
+Tech Stack:
 Frontend: React.js, HTML, CSS, JavaScript
 Backend: Node.js
 Database: MySQL
