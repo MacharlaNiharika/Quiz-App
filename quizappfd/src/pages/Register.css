@@ -1,0 +1,79 @@
+body {
+    background: url('../assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #84a6ee;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .registration-container {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 40px 60px;
+    width: 360px;
+    max-height: 550px;
+    color: rgb(44, 121, 221);
+    
+  }
+  
+  .registration-container h2 {
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 25px;
+    color: #00c3ff;
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-form input[type="text"],
+  .registration-form input[type="email"],
+  .registration-form input[type="file"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    background: rgb(126, 144, 194);
+    color: #333;
+  }
+  
+  .registration-form label {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #ccc;
+  }
+  
+  .registration-form .error {
+    color: #ff6b6b;
+    margin-bottom: 10px;
+  }
+  
+  .registration-form .success {
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .registration-form button {
+    padding: 12px;
+    background: #2c157e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .registration-form button:hover {
+    background: #0099cc;
+  }
+  
