@@ -36,10 +36,13 @@ Post-Exam Report:
 Displays on the Results Page:
 Performance Summary: Score, Percentage, Rank.
 Detailed Solutions Section: All questions, Correct answer, User's selected option.
+
 Email Notification:
+
 Sends an automatic email to the user after test submission.
 
 Tech Stack:
+
 Frontend: React.js, HTML, CSS, JavaScript
 Backend: Node.js
 Database: MySQL
